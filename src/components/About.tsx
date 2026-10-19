@@ -1,12 +1,12 @@
 import { motion } from 'framer-motion';
-import { education, experience, profile } from '../data/portfolio';
+import { profile } from '../data/portfolio';
 import { EASE, SectionHeading, Tilt } from './fx';
 
 export default function About() {
   const facts = [
-    { k: 'Now', v: 'B.Tech, AI & ML', s: `${education[0].school} · ${education[0].score}` },
-    { k: 'Training', v: `${experience[0].role}, ${experience[0].company}`, s: experience[0].period },
-    { k: 'Primary language', v: 'Java', s: 'with Python, C, C++' },
+    { k: 'Learning', v: 'Cybersecurity', s: 'Building knowledge step by step' },
+    { k: 'Focus', v: 'Network Security', s: 'Cybersecurity fundamentals' },
+    { k: 'Web Development', v: 'HTML & CSS', s: 'Learning JavaScript basics' },
     { k: 'Based in', v: profile.location, s: 'India' },
   ];
 
@@ -26,7 +26,7 @@ export default function About() {
             <div className="absolute inset-0 bg-[radial-gradient(80%_60%_at_50%_30%,#5a0b1b,#14060a_60%,#07070a)]" />
             <div className="absolute inset-0 opacity-50 [background-image:repeating-linear-gradient(90deg,rgba(255,255,255,0.03)_0px,rgba(255,255,255,0.03)_1px,transparent_1px,transparent_28px)]" />
             <img
-              src="/assets/portrait-720.webp"
+              src="/assets/Zaid2.png"
               srcSet={profile.portrait.srcSet}
               sizes="(max-width: 1024px) 90vw, 40vw"
               alt={profile.portrait.alt}
