@@ -1,4 +1,4 @@
-# BILAL — THE SERIES
+# ZAID — THE SERIES
 
 A cinematic, streaming-inspired portfolio for **Bilal Ahmad Dar**: Cybersecurity Learner and Aspiring Web Developer.
 Every section is an episode, every project is an Original, and the whole site plays like a series.
