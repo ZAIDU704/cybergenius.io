@@ -15,10 +15,10 @@ export const profile = {
     linkedin: 'https://in.linkedin.com/in/bilal-dar-032310290',
     github: 'https://github.com/ZAIDU704',
   },
-  resumePdf: '/assets/Cybersecurity.pdf',
+  resumePdf: `${import.meta.env.BASE_URL}assets/Cybersecurity.pdf`,
   portrait: {
-    src: '/assets/Zaid2.png',
-    srcSet: '/assets/Zaid2.png',
+    src: `${import.meta.env.BASE_URL}assets/Zaid2.png`,
+    srcSet: `${import.meta.env.BASE_URL}assets/Zaid2.png`,
     alt: 'Bilal Ahmad Dar',
   },
   interests: ['Cybersecurity', 'Network Security', 'Web Development', 'Technology'],
