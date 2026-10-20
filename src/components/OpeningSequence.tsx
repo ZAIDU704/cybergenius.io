@@ -117,6 +117,32 @@ export default function OpeningSequence({ onDone }: { onDone: () => void }) {
         >
           {profile.seriesTag}
         </motion.p>
+
+        {/* Instagram identity during the opening animation */}
+        <motion.a
+          href="https://www.instagram.com/cybergenius.io/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Instagram: @cybergenius.io"
+          className="mt-5 inline-flex items-center gap-2 font-sans text-xs font-medium tracking-normal text-bone/80 transition hover:text-white sm:text-sm"
+          initial={{ opacity: 0, y: 10 }}
+          animate={beat >= 3 ? { opacity: 1, y: beat >= 4 ? '-30vh' : 0 } : {}}
+          transition={{ duration: 0.8, ease: EASE }}
+        >
+          <svg
+            aria-hidden="true"
+            viewBox="0 0 24 24"
+            className="h-4 w-4"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="1.8"
+          >
+            <rect x="3" y="3" width="18" height="18" rx="5" />
+            <circle cx="12" cy="12" r="4" />
+            <circle cx="17.5" cy="6.5" r="0.8" fill="currentColor" stroke="none" />
+          </svg>
+          <span>@cybergenius.io</span>
+        </motion.a>
       </div>
 
       {/* role + play */}
